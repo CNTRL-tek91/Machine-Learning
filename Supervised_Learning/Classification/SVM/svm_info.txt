@@ -1,0 +1,16 @@
+Used for both classification and regression tasks
+
+The primary objective is to identify the optimal hyperplane in an N dimensional space
+that can spearate data points into different classes in the feature space
+
+The choice for the best hyperplane is the one that maximizes the spearation margine 
+between the two classes
+
+The maximum margin hyperplane is selected based on maximizing the distance between 
+the hyperplane and the nearest data point on each side. We choose the hyperplane whose
+distance from it to the nearest data point on each side is maximized
+
+For a binary classification problem, the equation for the linear hyperplane can be written as
+ w^T x + b = 0
+    - The vector w represents the normal vector to the hyperplane.
+    - b represents the offset or distance of the hyu=perplane from the origin along the vector w
